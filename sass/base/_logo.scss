@@ -1,0 +1,16 @@
+.logo {
+
+    &-path {
+        @extend %transition;
+    }
+    
+    &-svg {
+    cursor: pointer;
+
+        &:hover {
+            .logo-path {
+                fill: $color-primary;
+            }
+        }
+    }
+}
