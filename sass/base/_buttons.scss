@@ -1,5 +1,6 @@
 .button {
     padding: 11px 25px 13px;
+    @extend %font-prim;
     font-weight: 600;
     font-style: normal;
     font-size: 1.6rem;
@@ -35,4 +36,11 @@
 }
 .header__buttons > .button:first-child {
     margin-left: 0px;
+}
+
+.link-button {
+    color: $color-primary;
+    @extend %font-add;
+    display: inline-flex;
+    align-items: center;
 }

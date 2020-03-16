@@ -5,14 +5,19 @@
 @import './base/logo';
 @import './base/base';
 @import './base/buttons';
+@import './base/icons';
 
 // Layouts
 
 @import './layouts/container';
 @import './layouts/header';
+@import './layouts/columns';
 
 // Components
 
 @import './component/contact-us';
 @import './component/promo';
 @import './component/navigation';
+@import './component/tools';
+@import './component/strategies';
+@import './component/tags';
