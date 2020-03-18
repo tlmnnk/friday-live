@@ -1,0 +1,37 @@
+.icon {
+    display: inline-block;
+    cursor: pointer;
+
+    &_play {
+        margin-right: 5px;
+        width: 19px;
+        height: 18px;
+        background-image: url('./../../img/icons/play.svg');
+    }
+
+    &-square {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 19px;
+
+        &_yellow {
+            background-color: $color-yellow;
+        }
+        &_red {
+            background-color: $color-red;
+        }
+        &_blue {
+            background-color: $color-blue;
+        }
+        &_violet {
+            background-color: $color-violet;
+        }
+    }
+}
+
+.ico_arrow {
+
+}

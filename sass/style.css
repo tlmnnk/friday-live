@@ -112,9 +112,40 @@ h5 {
   align-items: center;
 }
 
+.icon {
+  display: inline-block;
+  cursor: pointer;
+}
+.icon_play {
+  margin-right: 5px;
+  width: 19px;
+  height: 18px;
+  background-image: url("./../../img/icons/play.svg");
+}
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+}
+.icon-square_yellow {
+  background-color: #FAB005;
+}
+.icon-square_red {
+  background-color: #F03E3D;
+}
+.icon-square_blue {
+  background-color: #4DADF7;
+}
+.icon-square_violet {
+  background-color: #7752BE;
+}
+
 .hamburger__line, .hamburger:after, .hamburger:before {
   position: absolute;
-  display: inline-block;
+  display: inline-flex;
   background: #173A56;
   border-radius: 5px;
   height: 3px;
@@ -165,6 +196,11 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .header__container {
+    padding: 0 14px 0 13px;
+  }
 }
 
 .nav {
@@ -277,6 +313,73 @@ h5 {
 }
 .nav__link:hover {
   color: #FF9900;
+}
+
+.tools__container {
+  padding-bottom: 90px;
+  background-image: url("../../img/backgrounds/tools-bg.svg");
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.tool h4 {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 462px;
+}
+
+.tools-button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.strategies {
+  padding: 30px 0;
+}
+.strategies__description {
+  margin-bottom: 24px;
+}
+
+.strategies h2 {
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.strategies__tags {
+  margin-bottom: 31px;
+}
+
+.strategy__container > * {
+  margin-bottom: 30px;
+}
+
+.tags {
+  display: flex;
+}
+.tags > * {
+  margin-right: 7px;
+}
+
+.tag {
+  padding: 0 14px;
+  font-size: 1.3rem;
+  line-height: 2.8rem;
+  font-weight: normal;
+  font-style: normal;
+  border-radius: 90px;
+  cursor: pointer;
+}
+.tag_selected {
+  background-color: #FF9900;
+  color: #FFF;
+}
+.tag_bordered {
+  border: 1px solid #D7D7D7;
+}
+.tag_colored {
+  background-color: #F5F5F5;
 }
 
 /*# sourceMappingURL=style.css.map */
